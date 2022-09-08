@@ -27,6 +27,5 @@ export class StandaloneComponent implements OnInit {
       });
     }, 60000);
   }
-
   ngOnInit(): void {}
 }
