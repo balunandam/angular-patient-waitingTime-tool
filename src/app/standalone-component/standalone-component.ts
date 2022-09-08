@@ -16,7 +16,6 @@ export class StandaloneComponent implements OnInit {
     { patientName: 'C', standardWaitingTime: '30 Minutes', waitingTime: 30 },
     { patientName: 'D', standardWaitingTime: '40 Minutes', waitingTime: 40 },
   ];
-  patientss: any;
   constructor() {
     setInterval(() => {
       this.timeDifference = new Date().toString().split(' ')[4];
