@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-standalone',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './standalone.component.html',
+  templateUrl: './standalone-component.html',
 })
 export class StandaloneComponent implements OnInit {
   timeDifference: any;

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { StandaloneComponent } from './standalone-component/standalone.componnent';
+import { StandaloneComponent } from './standalone-component/standalone-component';
 import { AppComponent } from './app.component';
 
 @NgModule({
