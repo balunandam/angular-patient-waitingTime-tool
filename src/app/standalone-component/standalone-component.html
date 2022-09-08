@@ -1,0 +1,17 @@
+<div style="display: flex; justify-content: center; align-items: center">
+  Current Time - {{timeDifference}}
+</div>
+<hr />
+<div style="display: flex; justify-content: center; align-items: center">
+  <div
+    *ngFor="let item of patients"
+    style="border: 2px solid gray; margin-left: 2px; padding: 3px"
+  >
+    Patient - {{item.patientName}} <br />(Default Waiting time -
+    {{item.standardWaitingTime}})
+    <br />
+    <br />
+    <br />
+    Current waiting time: {{item.waitingTime}}
+  </div>
+</div>
